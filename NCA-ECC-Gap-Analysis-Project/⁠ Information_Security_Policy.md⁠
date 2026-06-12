@@ -1,5 +1,3 @@
----
-
 # 📄 وثيقة سياسة أمن المعلومات الافتراضية (ISP)
 
 **رقم المرجع:** ISP-2026-V1  
@@ -27,7 +25,11 @@
 ## 5. الالتزام بالسياسة وتطبيقها
 كل من يثبت انتهاكه أو مخالفته لبنود هذه السياسة من الموظفين يكون عرضة للإجراءات التأديبية، والتي قد تصل إلى إنهاء الخدمة أو الملاحقة القانونية حسب الأنظمة المتبعة.
 
+## 6. تصنيف الأصول وإدارة المخاطر (NCA ECC 1-2)
+- **تصنيف الأصول:** يجب تصنيف جميع بيانات وأصول المنشأة إلى ثلاثة مستويات بناءً على أهميتها وحساسيتها: **سري** (بيانات العمل الحساسة)، **استخدام داخلي**، و**عام**.
+- **تقييم المخاطر:** يجب إجراء تقييم سنوي للمخاطر لتحديد التهديدات التقنية والتشغيلية، وتقييم احتمالية حدوثها وأثرها لتحديد أولويات إجراءات المعالجة.
 
+---
 
 # 📄 Mock Information Security Policy (ISP)
 
@@ -55,3 +57,7 @@ The purpose of this policy is to establish a secure framework for protecting the
 
 ## 5. Policy Compliance & Enforcement
 Any employee found to have violated this policy may be subject to disciplinary action, up to and including termination of employment and legal action.
+
+## 6. Asset Classification & Risk Management (NCA ECC 1-2)
+- **Asset Classification:** All organizational data and assets must be classified into three levels based on criticality: **Confidential** (Critical business data), **Internal Use**, and **Public**.
+- **Risk Assessment:** Annual risk assessments must be conducted to identify technical and operational threats, evaluating their Likelihood and Impact to prioritize remediation actions.
