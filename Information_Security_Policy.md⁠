@@ -1,0 +1,57 @@
+---
+
+# 📄 وثيقة سياسة أمن المعلومات الافتراضية (ISP)
+
+**رقم المرجع:** ISP-2026-V1  
+**المواءمة المعيارية:** الضوابط الأساسية للأمن السيبراني (NCA ECC-1:2018) وإطار NIST CSF  
+**الجهة المستهدفة:** منشأة افتراضية  
+
+---
+
+## 1. الغرض والنطاق
+الهدف من هذه السياسة هو وضع إطار أمني متكامل لحماية أصول المعلومات الخاصة بالمنشأة من التهديدات الداخلية والخارجية، وضمان الالتزام بالحد الأدنى من التشريعات الصادرة عن الهيئة الوطنية للأمن السيبراني. تسري هذه السياسة على جميع الموظفين، المقاولين، والأطراف الخارجية ذات العلاقة.
+
+## 2. حوكمة الأمن السيبراني (NCA ECC 1-1)
+- يجب على المنشأة تحديد أدوار ومسؤوليات واضحة وموثقة لإدارة الأمن السيبراني.
+- يتولى ممثل أو لجنة الأمن السيبراني مراجعة كافة المخاطر الأمنية وتحديث السياسات سنوياً، أو عند حدوث تغييرات جوهرية في البنية التحتية للشبكة.
+
+## 3. إدارة الهوية وصلاحيات الوصول (NCA ECC 2-3)
+- **التحقق المتعدد العوامل (MFA):** يلزم تفعيل التحقق متعدد العوامل إجبارياً لجميع آليات الوصول عن بُعد، الحسابات الإدارية (Admin)، والتطبيقات الحساسة للمنشأة.
+- **تعقيد كلمة المرور:** يجب ألا تقل كلمات المرور عن 12 خانة، وأن تحتوي على حروف كبيرة، صغيرة، أرقام، ورموز خاصة.
+- **الحد الأدنى من الصلاحيات:** تُمنح صلاحيات الوصول للأنظمة والبيانات بناءً على "مبدأ الحد الأدنى من الصلاحيات" (PoLP) وحاجة العمل الفعلية فقط.
+
+## 4. مراقبة الأحداث الأمنية (NCA ECC 2-11)
+- يجب ربط جميع الخوادم الحساسة، الجدران النارية، وأجهزة الشبكة الرئيسية بمركز إدارة السجلات والأحداث الأمنية المركزي (مفاهيم الـ SIEM).
+- يجب الاحتفاظ بسجلات الأحداث (Logs) لمدة لا تقل عن 12 شهراً تلبيةً لمتطلبات التدقيق والامتثال المحلية.
+
+## 5. الالتزام بالسياسة وتطبيقها
+كل من يثبت انتهاكه أو مخالفته لبنود هذه السياسة من الموظفين يكون عرضة للإجراءات التأديبية، والتي قد تصل إلى إنهاء الخدمة أو الملاحقة القانونية حسب الأنظمة المتبعة.
+
+
+
+# 📄 Mock Information Security Policy (ISP)
+
+**Document Reference:** ISP-2026-V1  
+**Alignment:** NCA ECC-1:2018 & NIST CSF  
+**Target Organization:** Mock Enterprise  
+
+---
+
+## 1. Purpose & Scope
+The purpose of this policy is to establish a secure framework for protecting the organization's information assets from internal and external threats, ensuring baseline compliance with the National Cybersecurity Authority (NCA) regulations. This policy applies to all employees, contractors, and third-party vendors.
+
+## 2. Cybersecurity Governance (NCA ECC 1-1)
+- The organization shall define clear roles and responsibilities for cybersecurity management.
+- A dedicated cybersecurity representative/committee shall review all security risks and update policies annually or after major infrastructure changes.
+
+## 3. Identity and Access Management (NCA ECC 2-3)
+- **Multi-Factor Authentication (MFA):** MFA must be enforced globally for all remote access mechanisms, administrative accounts, and critical business applications.
+- **Password Complexity:** Passwords must be a minimum of 12 characters, including uppercase, lowercase, numbers, and special characters.
+- **Least Privilege:** Access rights to systems and data shall be granted strictly based on the "Principle of Least Privilege" (PoLP) and the "Need-to-Know" basis.
+
+## 4. Cybersecurity Event Monitoring (NCA ECC 2-11)
+- All critical servers, firewalls, and core network devices must centralize their audit logs into a central repository (SIEM concepts).
+- Logs must be retained for at least 12 months to satisfy local regulatory audit requirements.
+
+## 5. Policy Compliance & Enforcement
+Any employee found to have violated this policy may be subject to disciplinary action, up to and including termination of employment and legal action.
